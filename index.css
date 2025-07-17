@@ -1,0 +1,29 @@
+h1{
+    margin-left: 10%;
+    
+}
+
+.linenav {
+    position: relative;
+    display: flex;
+    top: -40px;
+    margin-left: 30%; 
+    gap: 6px;
+
+}
+
+article {
+
+    padding: 10%;
+    background-color: blue;
+    margin-right: 30%; 
+
+}
+
+section {
+    position: relative;
+    padding: 4%;
+    margin-top: -27%;
+    margin-left: 77%;
+    background-color: aqua;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/output.css">
+    <title>Manual Web1</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white shadow">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center px-5 h-20">
+            <div>
+                <h1 class="text-neutral-900 font-bold text-2xl"><a href="../index.html">Desenvolvimento Web</a></h1>
+            </div>
+
+            <div class="relative">
+                <div class="w-5 h-5 absolute left-3 top-1/4 -translate-y-1/2 pointer-events-none  text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+                <input type="text" name="searchbar" id="searchbar" placeholder="Pesquisar"
+                    class="w-80 h-10 rounded-md bg-gray-100 outline-none p-4 pl-11">
+            </div>
+
+            <ul class="flex space-x-6 items-center">
+
+                <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600"
+                        href="../conceitos_basicos/index.html">Conceitos Básicos</a></li>
+
+                <li class="relative group">
+                    <button id="dropdownBtn"
+                        class="w-32 h-28 flex justify-center items-center text-md text-gray-900 font-medium hover:text-yellow-600 gap-2">
+                        Disciplinas
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4 size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div id="menuDropdown"
+                        class="w-32 h-24 flex-col items-center absolute hidden group-hover:block bg-white shadow-md rounded-md py-4">
+                        <a class="h-8 block hover:bg-gray-100 px-4" href="../web1/web1.html">Web1</a>
+                        <a class="h-8 block hover:bg-gray-100 px-4" href="../web2/web2.html">Web2</a>
+                    </div>
+                </li>
+
+                <li class="text-md text-gray-900 font-medium hover:text-yellow-600"><a href="#">Atividades</a></li>
+                <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600" href="#">Falar com um monitor</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex-grow bg-white p-28">
+        <section class="max-w-7xl mx-auto px-5 grid grid-cols-3 gap-10 py-20">
+            <div class="col-span-3 grid grid-cols-3 gap-20">
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center" src="../public/images/client-server.png" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a
+                                    href="../conceitos_basicos/client-server.html">O Modelo Cliente-Servidor</a></h2>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center" src="../public/images/http.jpg" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">O Protocolo HTTP</a></h2>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center" src="../public/images/crud.png" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">O que é CRUD?</a></h2>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center" src="../public/images/api.jpg" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">O que é uma API?</a></h2>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center" src="../public/images/mysql.png" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">MySQL</a></h2>
+                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has
+                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                                took a
+                                galley of type and scrambled it to make a type specimen book.</p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+    </main>
+
+    <footer class="h-72 bg-gray-100 px-5 py-10">
+        <div class="max-w-7xl mx-auto flex justify-between p-4">
+            <div>
+                <p class="text-md font-medium text-gray-900 py-2">
+                    Monitores de Web1 e Web2 - TSI e IPI (2025.1)
+                </p>
+                <ul class="py-2">
+                    <li>Claudiane Rodrigues</li>
+                    <li>Daniel Filipe</li>
+                    <li>Guilherme Valença</li>
+                    <li>Izabelle Alves</li>
+                    <li>Rafaela Neves</li>
+                </ul>
+            </div>
+
+            <div class="flex-col">
+                <p class="text-lg font-medium text-gray-900">Compartilhe os seus desafios na sua jornada de
+                    aprendizado!</p>
+                <div class="py-4">
+                    <p class="py-4">Dúvidas ou sugestões?</p>
+                    <button
+                        class="w-44 h-14 text-white text-md font-medium bg-yellow-600 hover:bg-yellow-500 rounded-md p-4">
+                        Fale com a gente!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../public/js/index.js"></script>
+</body>
+
+</html>

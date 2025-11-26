@@ -160,7 +160,7 @@
             </section>
         </div>
         <div class="max-w-7xl max-h-screen p-10 overflow-y-scroll">
-            <section id="s1" class="bg-white rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <!-- <section id="s1" class="bg-white rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg w-16">
                     <img src="../public/images/xampp-logo.png" alt="logo php">
                 </span>
@@ -274,19 +274,96 @@
                         <img src="../public/images/print-s1-5.png" alt="print-s1-2" class="rounded-md shadow-md w-96">
                     </p>
                 </div>
-            </section>
+            </section> -->
             <section id="s3" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
                     <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
+                        Painel de controle do XAMPP
                     </h3>
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
+                        No painel de controle do XAMPP, você verá uma interface gráfica que permite gerenciar os
+                        componentes que foram instalados, como o servidor Apache, o banco de dados MySQL, e outros
+                        serviços. Além das configurações do próprio XAMPP.
                     </p>
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Funcionalidades Principais:
+                    </p>
+                    <ul class="list-disc list-inside text-xl text-gray-700 dark:text-gray-800 mt-2">
+                        <li>Start/Stop: Botões para iniciar ou parar o serviço.</li>
+                        <li>Admin: Acessa a interface web do serviço. (o serviço necessita estar ligado)</li>
+                        <li>Config: Edita os arquivos de configuração dos serviços.</li>
+                        <li>Logs: Visualização de logs de erro e acesso para diagnóstico.</li>
+                    </ul>
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Iniciando e parando serviços:
+                    </p>
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        No painel de controle, você verá botões para iniciar e parar cada componente. Por exemplo, para
+                        iniciar o servidor Apache, basta clicar no botão "Start" ao lado de "Apache". 
+                    </p>
+                    <img src="../public/images/print-s3-2.png" alt="print-s1-1" class="aspect-square mt-4 rounded-md shadow-md w-lg h-84">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Da mesma forma, você pode parar o serviço clicando no botão "Stop".
+                    </p>
+                    <img src="../public/images/print-s3-3.png" alt="print-s1-1" class="aspect-square rounded-md mt-4 shadow-md w-lg h-84">
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Acessando interfaces administrativas:
+                    </p>
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Muitos componentes do XAMPP possuem interfaces web para administração. Por exemplo, para acessar
+                        o phpMyAdmin (ferramenta de gerenciamento de banco de dados), clique no botão "Admin".
+                    </p>
+                    <img src="../public/images/print-s3-4.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Isso abrirá o phpMyAdmin em seu navegador padrão, onde você pode gerenciar seus bancos de dados
+                        MySQL.
+                    </p>
+                    <img src="../public/images/print-s3-5.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Acessando configurações:
+                    </p>
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Existe também a possibildade de ajustar as configurações de um componente. Por exemplo, para acessar as configurações do php clique no botão "Config" ao lado do serviço
+                        apache.
+                    </p>
+                    <img src="../public/images/print-s3-6.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Isso abrirá o arquivo de configuração correspondente em um editor de texto, onde você
+                        pode fazer as alterações necessárias.
+                    </p>
+                    <img src="../public/images/print-s3-7.png" alt="print-s1-1" class="aspect-square mt-4 rounded-md shadow-md w-96">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Lembre-se de salvar as alterações e reiniciar o serviço para que as novas configurações
+                        entrem em vigor.
+                    </p>
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Acessando logs:
+                    </p>
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Para diagnosticar problemas, você pode acessar os logs de cada componente clicando no botão
+                        "Logs". Isso abrirá uma janela exibindo os logs de erro e acesso, o que pode ser útil para
+                        solucionar problemas. Por exemplo, para acessar os logs de acesso do apache clique no botão "Logs" ao lado do serviço
+                        apache.
+                    </p>
+                    <img src="../public/images/print-s3-8.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        Isso abrirá o arquivo de log correspondente em um editor de texto, onde você
+                        pode revisar as entradas de log.
+                    </p>
+                    <img src="../public/images/print-s3-9.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-96">
+                    <p class=" text-gray-700 dark:text-gray-800 mt-6 text-xl">
+                        O painel de controle do XAMPP permite ajustar várias
+                        configurações, como portas de serviço, diretórios raiz, e outras opções avançadas.
+                    </p>
+                    <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
+                        Funcionalidades Extras:
+                    </p>
+                    <ul class="list-disc list-inside text-xl text-gray-700 dark:text-gray-800 mt-2">
+                        <li>Configurações Avançadas: Ajuste portas, diretórios raiz, e outras opções.</li>
+                        <li>Serviços Adicionais: Gerencie serviços como FileZilla FTP Server, Mercury Mail Server,
+                            etc.</li>
+                        <li>Atualizações: Verifique e instale atualizações do XAMPP diretamente pelo painel.</li>
+                    </ul>
                 </div>
             </section>
             <section id="s4" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">

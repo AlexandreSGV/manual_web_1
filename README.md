@@ -10,3 +10,7 @@ Este projeto foi criado tendo como objetivo organizar e facilitar o acesso aos c
 - [Guilherme Valença](https://github.com/Guilhermevalenca)
 - [Izabelle Alves](https://github.com/IzabelleAlves)
 - [Rafaela Neves](https://github.com/rafxhs)
+
+### IPI 2025.2
+
+- [David Santos](https://github.com/davibala)

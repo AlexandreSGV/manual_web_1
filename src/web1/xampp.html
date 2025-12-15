@@ -216,7 +216,7 @@
                                 <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     P
                                 </div>
-                                 → PHP (Linguagem de Programação)
+                                    → PHP (Linguagem de Programação)
                             </dt>
                             <dd class="mt-2 text-base/7 text-gray-600">O PHP (Hypertext Preprocessor) linguagem de
                                 programação voltada para o desenvolvimento de aplicações web dinâmicas.
@@ -369,14 +369,33 @@
             <section id="s4" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
                     <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
+                        Estrutura de Diretórios
                     </h3>
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
+                        O XAMPP organiza seus arquivos em uma estrutura de diretórios específica. Aqui estão os principais
+                        diretórios que você deve conhecer:
+                        <br><br>
+                        <strong>htdocs:</strong> Este é o diretório raiz onde você deve colocar seus projetos e arquivos PHP e HTML.
+                        Qualquer arquivo colocado aqui pode ser acessado via navegador, caso o servidor Apache esteja em execução.
+                        <br><br>
+                        <img src="../public/images/print-s4-1.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md ">
+                        <br><br>
+                        As pastas e arquivos dentro do diretório htdocs podem ser acessados através do navegador web usando o endereço
+                        <code>http://localhost/</code> seguido pelo nome da pasta ou arquivo. 
+                        <br><br>
+                        Por exemplo, se você criar uma pasta chamada "meuProjeto" dentro de "htdocs", você pode acessá-la via
+                        <code>http://localhost/meuProjeto/</code>.
+                        <br><br>
+                        <img src="../public/images/print-s4-2.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
+                        <br><br>
+                        <strong>mysql/data:</strong> Este diretório contém os arquivos de dados do banco de dados MySQL.
+                        Evite modificar esses arquivos diretamente.
+                        <img src="../public/images/print-s4-3.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
+                        <br><br>
+                        <strong>logs:</strong> Contém os arquivos de log para os diferentes serviços, como Apache e MySQL.
+                        Útil para diagnóstico de problemas.
+                        <img src="../public/images/print-s4-4.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
+                        <br><br>
                     </p>
                 </div>
             </section>

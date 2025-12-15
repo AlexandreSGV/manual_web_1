@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/output.css">
+    <title>Manual Web 1 - PHP</title>
+</head>
+
+<body class="flex flex-col min-h-screen">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white shadow">
+        <nav class="max-w-7xl mx-auto flex justify-between items-center px-5 h-20">
+            <div>
+                <h1 class="text-neutral-900 font-bold text-2xl"><a href="../index.html">Desenvolvimento Web</a></h1>
+            </div>
+            <div class="relative">
+                <div class="w-5 h-5 absolute left-3 top-1/4 -translate-y-1/2 pointer-events-none  text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+                <input type="text" name="searchbar" id="searchbar" placeholder="Pesquisar"
+                    class="w-80 h-10 rounded-md bg-gray-100 outline-none p-4 pl-11">
+            </div>
+            <ul class="flex space-x-6 items-center">
+                <li>
+                    <a class="text-md text-gray-900 font-medium hover:text-yellow-600"
+                        href="../conceitos_basicos/index.html">
+                        Conceitos Básicos
+                    </a>
+                </li>
+                <li class="relative group">
+                    <button id="dropdownBtn"
+                        class="w-32 h-28 flex justify-center items-center text-md text-gray-900 font-medium hover:text-yellow-600 gap-2">
+                        Disciplinas
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-4 h-4 size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div id="menuDropdown"
+                        class="w-32 h-24 flex-col items-center absolute hidden group-hover:block bg-white shadow-md rounded-md py-4">
+                        <a class="h-8 block hover:bg-gray-100 px-4" href="../web1/web1.html">Web1</a>
+                        <a class="h-8 block hover:bg-gray-100 px-4" href="../web2/web2.html">Web2</a>
+                    </div>
+                </li>
+                <li class="text-md text-gray-900 font-medium hover:text-yellow-600"><a href="#">Atividades</a></li>
+                <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600" href="#">Falar com um monitor</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bg-white flex w-full pt-28 mx-auto">
+        <div class="max-w-xs p-10"> <!-- quick navigation -->
+            <section class="bg-white rounded-lg pl-4 pr-4 py-8 shadow-xl ring ring-gray-200">
+                <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+                    Navegação Rápida
+                </h3>
+                <ul role="list" class="mt-6 space-y-4 divide-y divide-gray-300">
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">1</p>
+                        </div>
+                        <a href="#s1" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Introdução ao CSS</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="size-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">2</p>
+                        </div>
+                        <a href="#s2" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Instalação</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">8</p>
+                        </div>
+                        <a href="#s3" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Solução de Problemas Comuns</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div class="max-w-7xl max-h-full p-10 overflow-y-scroll"> <!-- content -->
+            <section id="s1" class="bg-white rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+                <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg w-16">
+                    <img src="../public/images/html-logo.png" alt="logo php">
+                </span>
+                <div class="mt-6">
+                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">HTML
+                    </h3>
+                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                        HTML (HyperText Markup Language) é a linguagem de marcação padrão usada para criar páginas
+                        web. Ela estrutura o conteúdo da web, permitindo a incorporação de texto, imagens, vídeos e
+                        outros elementos multimídia. O HTML utiliza uma série de tags e atributos para definir a
+                        aparência e o comportamento dos elementos na página, facilitando a navegação e a
+                        interatividade para os usuários.
+                    </p>
+                </div>
+            </section>
+            <section id="s2" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+                <div class="mt-6">
+                    <p class=" text-gray-400 mt-2 text-xl">
+                        coming soon...
+                    </p>
+                </div>
+            </section>
+            <section id="s3" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+                <div class="mt-6">
+                    <p class=" text-gray-400 mt-2 text-xl">
+                        coming soon...
+                    </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="h-72 bg-gray-100 px-5 py-5 mt-auto">
+        <div class="max-w-7xl mx-auto flex justify-between p-4">
+            <div>
+                <p class="text-md font-medium text-gre-900 py-2">
+                    Monitores de Web1 e Web2 - TSI e IPI (2025.1)
+                </p>
+                <ul class="py-2">
+                    <li>Claudiane Rodrigues</li>
+                    <li>Daniel Filipe</li>
+                    <li>Guilherme Valença</li>
+                    <li>Izabelle Alves</li>
+                    <li>Rafaela Neves</li>
+                    <li>David Santos</li>
+                    <li>Arley Nunes</li>
+                </ul>
+            </div>
+            <div class="flex-col">
+                <p class="text-lg font-medium text-gre-900">Compartilhe os seus desafios na sua jornada de
+                    aprendizado!</p>
+                <div class="py-4">
+                    <p class="py-4">Dúvidas ou sugestões?</p>
+                    <button
+                        class="w-44 h-14 text-white text-md font-medium bg-yellow-600 hover:bg-yellow-500 rounded-md p-4">
+                        Fale com a gente!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../public/js/index.js"></script>
+</body>
+
+</html>

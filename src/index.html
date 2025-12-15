@@ -12,11 +12,10 @@
     <header class="fixed top-0 left-0 w-full z-50 bg-white shadow">
         <nav class="max-w-7xl mx-auto flex justify-between items-center px-5 h-20">
             <div>
-                <h1 class="text-neutral-900 font-bold text-2xl"><a href="./index.html">Desenvolvimento Web</a></h1>
+                <h1 class="font-bold text-2xl"><a href="./index.html">Desenvolvimento Web</a></h1>
             </div>
-
             <div class="relative">
-                <div class="w-5 h-5 absolute left-3 top-1/4 -translate-y-1/2 pointer-events-none  text-gray-600">
+                <div class="w-5 h-5 absolute left-3 top-2 pointer-events-none  text-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -26,7 +25,6 @@
                 <input type="text" name="searchbar" id="searchbar" placeholder="Pesquisar"
                     class="w-80 h-10 rounded-md bg-gray-100 outline-none p-4 pl-11">
             </div>
-
             <ul class="flex space-x-6 items-center">
 
                 <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600"
@@ -54,17 +52,39 @@
             </ul>
         </nav>
     </header>
-    <main class=" bg-white p-28">
+    <main class="bg-white p-28">
         <section class="max-w-7xl mx-auto px-5 py-10">
             <div class="flex flex-wrap justify-between gap-x-12 gap-y-10">
                 <article class="w-80 bg-white border border-gray-300 rounded shadow">
                     <div>
-                        <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/xampp-logo.jpg" />
+                        <img class="w-full h-52 object-cover object-center rounded-t"
+                            src="./public/images/xampp-logo.jpg" />
                         <div class="p-4">
-                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/xampp.html">XAMPP</a></h2>
-                            <p class="text-justify text-gray-600">Ambiente de desenvolvimento que facilita a criação e o teste de aplicações web localmente, sem a
-                    necessidade de um servidor real na internet. Ele reúne em um só instalador   todos os componentes necessários para executar um servidor web completo em seu computador, sem precisar de uma configuração complexa.</p>
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/xampp.html">XAMPP</a>
+                            </h2>
+                            <p class="text-justify text-gray-600">Ambiente de desenvolvimento que facilita a criação e o
+                                teste de aplicações web localmente, sem a
+                                necessidade de um servidor real na internet. Ele reúne em um só instalador todos os
+                                componentes necessários para executar um servidor web completo em seu computador, sem
+                                precisar de uma configuração complexa.</p>
                             <a class="flex justify-end text-yellow-500 pt-4" href="./web1/xampp.html">ler mais</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="w-80 bg-white border border-gray-300 rounded shadow">
+                    <div>
+                        <img class="w-full h-52 object-cover object-center rounded-t"
+                            src="./public/images/mysql-logo.jpg" />
+                        <div class="p-4">
+                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/mysql.html">MySQL</a>
+                            </h2>
+                            <p class="text-justify text-gray-600">MySQL é um sistema de gerenciamento de banco de dados
+                                relacional (RDBMS) de código aberto amplamente utilizado para armazenar, organizar e
+                                gerenciar grandes volumes de dados. Ele é conhecido por sua eficiência, escalabilidade e
+                                facilidade de uso, sendo uma escolha popular para aplicativos web e sistemas de
+                                gerenciamento de conteúdo.
+                            </p>
+                            <a class="flex justify-end text-yellow-500 pt-4" href="./web1/mysql.html">ler mais</a>
                         </div>
                     </div>
                 </article>
@@ -73,86 +93,70 @@
                         <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/html.jpg" />
                         <div class="p-4">
                             <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/html.html">HTML</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="text-justify">
+                                O HTML (HyperText Markup Language) é a linguagem de marcação padrão usada para criar e
+                                estruturar
+                                páginas da web. Ele fornece a estrutura básica de um site, permitindo que os
+                                desenvolvedores
+                                organizem o conteúdo, como texto, imagens, links e outros elementos multimídia, de forma
+                                compreensível pelos navegadores web.
+                            </p>
                             <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
                         </div>
                     </div>
                 </article>
-
                 <article class="w-80 bg-white border border-gray-300 rounded shadow">
                     <div>
                         <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/css.jpg" />
                         <div class="p-4">
                             <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/css.html">CSS</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="text-justify">
+                                CSS (Cascading Style Sheets) é uma linguagem de estilo usada para descrever a
+                                apresentação
+                                e o layout de documentos HTML. Ele permite que os desenvolvedores controlem a aparência
+                                visual
+                                de um site, incluindo cores, fontes, espaçamento, posicionamento e outros aspectos
+                                estéticos.
+                            </p>
                             <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
                         </div>
                     </div>
                 </article>
-
                 <article class="w-80 bg-white border border-gray-300 rounded shadow">
                     <div>
-                        <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/javascript.png" />
+                        <img class="w-full h-52 object-cover object-center rounded-t"
+                            src="./public/images/javascript.png" />
                         <div class="p-4">
-                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/javascript.html">Tudo sobre JavaScript</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
+                            <h2 class="text-md text-gray-900 font-medium pb-4">
+                                <a href="./web1/javascript.html">
+                                    JavaScript
+                                </a>
+                            </h2>
+                            <p class="text-justify">
+                                JavaScript é uma linguagem de programação amplamente utilizada para criar
+                                interatividade e
+                                dinamismo em páginas web. Ele permite que os desenvolvedores adicionem funcionalidades
+                                avançadas,
+                                como animações, validação de formulários, manipulação de elementos HTML e comunicação
+                                assíncrona
+                                com servidores.
+                            </p>
                             <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
                         </div>
                     </div>
                 </article>
-
                 <article class="w-80 bg-white border border-gray-300 rounded shadow">
                     <div>
                         <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/php.png" />
                         <div class="p-4">
                             <h2 class="text-md text-gray-900 font-medium pb-4"><a href="./web1/php.html">PHP</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
-                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="w-80 bg-white border border-gray-300 rounded shadow">
-                    <div>
-                        <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/laravel.png" />
-                        <div class="p-4">
-                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">Como usar o Laravel e boas práticas</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
-                            <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
-                        </div>
-                    </div>
-                </article>
-
-                <article class="w-80 bg-white border border-gray-300 rounded shadow">
-                    <div>
-                        <img class="w-full h-52 object-cover object-center rounded-t" src="./public/images/database.jpg" />
-                        <div class="p-4">
-                            <h2 class="text-md text-gray-900 font-medium pb-4"><a href="#">Banco de Dados</a></h2>
-                            <p class="text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
-                                galley of type and scrambled it to make a type specimen book.</p>
+                            <p class="text-justify">
+                                PHP (Hypertext Preprocessor) é uma linguagem de programação de código aberto amplamente
+                                utilizada
+                                para o desenvolvimento de aplicações web dinâmicas. Ele é executado no lado do servidor,
+                                permitindo
+                                a criação de páginas web interativas e a manipulação de dados em bancos de dados.
+                            </p>
                             <a class="flex justify-end text-yellow-500 pt-4" href="#">ler mais</a>
                         </div>
                     </div>
@@ -160,7 +164,6 @@
             </div>
         </section>
     </main>
-
     <footer class="h-72 bg-gray-100 px-5 py-10">
         <div class="max-w-7xl mx-auto flex justify-between p-4">
             <div>
@@ -189,7 +192,7 @@
             </div>
         </div>
     </footer>
-
     <script src="./public/js/index.js"></script>
 </body>
+
 </html>

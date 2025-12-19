@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../public/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../public/css/output.css">
     <title>Manual Web 1 - PHP</title>
 </head>
@@ -53,78 +54,76 @@
             </ul>
         </nav>
     </header>
-    <main class="bg-white flex w-full pt-28 mx-auto">
-        <div class="max-w-xs p-10"> <!-- quick navigation -->
-            <section class="bg-white rounded-lg pl-4 pr-4 py-8 shadow-xl ring ring-gray-200">
-                <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                    Navegação Rápida
+    <aside>
+        <nav class="bg-white max-w-3xs fixed m-10 p-5 top-18 rounded-lg shadow-xl ring ring-gray-200">
+            <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
+                Navegação Rápida
+            </h3>
+            <ul role="list" class="mt-6 space-y-4 divide-y divide-gray-300">
+                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                    <div
+                        class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                        <p class="text-white">1</p>
+                    </div>
+                    <a href="#s1" class="flex items-center w-full justify-between">
+                        <p class="text-xs font-semibold">Introdução ao HTML</p>
+                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="size-4">
+                    </a>
+                </li>
+                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                    <div
+                        class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                        <p class="text-white">2</p>
+                    </div>
+                    <a href="#s2" class="flex items-center w-full justify-between">
+                        <p class="text-xs font-semibold">Instalação</p>
+                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                    </a>
+                </li>
+                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                    <div
+                        class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                        <p class="text-white">8</p>
+                    </div>
+                    <a href="#s3" class="flex items-center w-full justify-between">
+                        <p class="text-xs font-semibold">Solução de Problemas Comuns</p>
+                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+    <main class="bg-white max-w-7xl pt-28 pl-10 pb-10 pr-10 ml-73">
+        <section id="s1" class="bg-white scroll-mt-28 rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+            <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg w-16">
+                <img src="../public/images/html-logo.png" alt="logo php">
+            </span>
+            <div class="mt-6">
+                <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">HTML
                 </h3>
-                <ul role="list" class="mt-6 space-y-4 divide-y divide-gray-300">
-                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                        <div
-                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                            <p class="text-white">1</p>
-                        </div>
-                        <a href="#s1" class="flex items-center w-full justify-between">
-                            <p class="text-xs font-semibold">Introdução ao CSS</p>
-                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="size-4">
-                        </a>
-                    </li>
-                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                        <div
-                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                            <p class="text-white">2</p>
-                        </div>
-                        <a href="#s2" class="flex items-center w-full justify-between">
-                            <p class="text-xs font-semibold">Instalação</p>
-                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                        </a>
-                    </li>
-                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                        <div
-                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                            <p class="text-white">8</p>
-                        </div>
-                        <a href="#s3" class="flex items-center w-full justify-between">
-                            <p class="text-xs font-semibold">Solução de Problemas Comuns</p>
-                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                        </a>
-                    </li>
-                </ul>
-            </section>
-        </div>
-        <div class="max-w-7xl max-h-full p-10 overflow-y-scroll"> <!-- content -->
-            <section id="s1" class="bg-white rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
-                <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg w-16">
-                    <img src="../public/images/html-logo.png" alt="logo php">
-                </span>
-                <div class="mt-6">
-                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">HTML
-                    </h3>
-                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        HTML (HyperText Markup Language) é a linguagem de marcação padrão usada para criar páginas
-                        web. Ela estrutura o conteúdo da web, permitindo a incorporação de texto, imagens, vídeos e
-                        outros elementos multimídia. O HTML utiliza uma série de tags e atributos para definir a
-                        aparência e o comportamento dos elementos na página, facilitando a navegação e a
-                        interatividade para os usuários.
-                    </p>
-                </div>
-            </section>
-            <section id="s2" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
-                <div class="mt-6">
-                    <p class=" text-gray-400 mt-2 text-xl">
-                        coming soon...
-                    </p>
-                </div>
-            </section>
-            <section id="s3" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
-                <div class="mt-6">
-                    <p class=" text-gray-400 mt-2 text-xl">
-                        coming soon...
-                    </p>
-                </div>
-            </section>
-        </div>
+                <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
+                    HTML (HyperText Markup Language) é a linguagem de marcação padrão usada para criar páginas
+                    web. Ela estrutura o conteúdo da web, permitindo a incorporação de texto, imagens, vídeos e
+                    outros elementos multimídia. O HTML utiliza uma série de tags e atributos para definir a
+                    aparência e o comportamento dos elementos na página, facilitando a navegação e a
+                    interatividade para os usuários.
+                </p>
+            </div>
+        </section>
+        <section id="s2" class="bg-white scroll-mt-28 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+            <div class="mt-6">
+                <p class=" text-gray-400 mt-2 text-xl">
+                    coming soon...
+                </p>
+            </div>
+        </section>
+        <section id="s3" class="bg-white scroll-mt-28 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-orange-400">
+            <div class="mt-6">
+                <p class=" text-gray-400 mt-2 text-xl">
+                    coming soon...
+                </p>
+            </div>
+        </section>
     </main>
     <footer class="h-72 bg-gray-100 px-5 py-5 mt-auto">
         <div class="max-w-7xl mx-auto flex justify-between p-4">

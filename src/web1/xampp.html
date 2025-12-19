@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,19 +8,12 @@
     <title>Manual Web 1 - PHP</title>
 </head>
 
-
-
-
 <body class="flex flex-col min-h-screen">
     <header class="fixed top-0 left-0 w-full z-50 bg-white shadow">
         <nav class="max-w-7xl mx-auto flex justify-between items-center px-5 h-20">
             <div>
                 <h1 class="text-neutral-900 font-bold text-2xl"><a href="../index.html">Desenvolvimento Web</a></h1>
             </div>
-
-
-
-
             <div class="relative">
                 <div class="w-5 h-5 absolute left-3 top-1/4 -translate-y-1/2 pointer-events-none  text-gray-600">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -35,21 +25,9 @@
                 <input type="text" name="searchbar" id="searchbar" placeholder="Pesquisar"
                     class="w-80 h-10 rounded-md bg-gray-100 outline-none p-4 pl-11">
             </div>
-
-
-
-
             <ul class="flex space-x-6 items-center">
-
-
-
-
                 <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600"
                         href="../conceitos_basicos/index.html">Conceitos Básicos</a></li>
-
-
-
-
                 <li class="relative group">
                     <button id="dropdownBtn"
                         class="w-32 h-28 flex justify-center items-center text-md text-gray-900 font-medium hover:text-yellow-600 gap-2">
@@ -65,102 +43,105 @@
                         <a class="h-8 block hover:bg-gray-100 px-4" href="../web2/web2.html">Web2</a>
                     </div>
                 </li>
-
-
-
-
                 <li class="text-md text-gray-900 font-medium hover:text-yellow-600"><a href="#">Atividades</a></li>
                 <li><a class="text-md text-gray-900 font-medium hover:text-yellow-600" href="#">Falar com um monitor</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-
     <main class="bg-white flex w-full pt-28 mx-auto">
         <div class="max-w-xs p-10">
             <section class="bg-white rounded-lg pl-4 pr-4 py-8 shadow-xl ring ring-gray-200">
                 <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Navegação Rápida
-                    </h3>
+                    Navegação Rápida
+                </h3>
                 <ul role="list" class="mt-6 space-y-4 divide-y divide-gray-300">
-                <li class="flex items-center gap-x-4 py-2 justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">1</p>
-                    </div>
-                    <a href="#" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Introdução ao XAMPP</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="size-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">2</p>
-                    </div>
-                    <a href="#s2" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Instalação</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">3</p>
-                    </div>
-                    <a href="#s3" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Painel de Controle do XAMPP</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">4</p>
-                    </div>
-                    <a href="#s4" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Estrutura de Diretórios</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">5</p>
-                    </div>
-                    <a href="#s5" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Rodando seu Primeiro Projeto</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">6</p>
-                    </div>
-                    <a href="#s6" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Gerenciando Banco de Dados com phpMyAdmin</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">7</p>
-                    </div>
-                    <a href="#s7" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Dicas e Boas Práticas</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
-                <li class="flex items-center gap-x-4 py-2 w-full justify-between">
-                    <div class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
-                        <p class="text-white">8</p>
-                    </div>
-                    <a href="#s8" class="flex items-center w-full justify-between">
-                        <p class="text-xs font-semibold">Solução de Problemas Comuns</p>
-                        <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
-                    </a>
-                </li>
+                    <li class="flex items-center gap-x-4 py-2 justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">1</p>
+                        </div>
+                        <a href="#s1" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Introdução ao XAMPP</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="size-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">2</p>
+                        </div>
+                        <a href="#s2" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Instalação</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">3</p>
+                        </div>
+                        <a href="#s3" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Painel de Controle do XAMPP</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">4</p>
+                        </div>
+                        <a href="#s4" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Estrutura de Diretórios</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">5</p>
+                        </div>
+                        <a href="#s5" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Rodando seu Primeiro Projeto</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">6</p>
+                        </div>
+                        <a href="#s6" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Gerenciando Banco de Dados com phpMyAdmin</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">7</p>
+                        </div>
+                        <a href="#s7" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Dicas e Boas Práticas</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-x-4 py-2 w-full justify-between">
+                        <div
+                            class="size-6 flex-none flex items-center justify-center rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10">
+                            <p class="text-white">8</p>
+                        </div>
+                        <a href="#s8" class="flex items-center w-full justify-between">
+                            <p class="text-xs font-semibold">Solução de Problemas Comuns</p>
+                            <img src="../public/images/arrow-down-icon.png" alt="arrow-down-icon" class="w-4 h-4">
+                        </a>
+                    </li>
                 </ul>
             </section>
         </div>
         <div class="max-w-7xl max-h-screen p-10 overflow-y-scroll">
-            <section id="s1" class="bg-white rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <section id="s1"
+                class="bg-white scroll-mt-36 rounded-lg px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <span class="inline-flex items-center justify-center rounded-md p-2 shadow-lg w-16">
                     <img src="../public/images/xampp-logo.png" alt="logo php">
                 </span>
@@ -181,7 +162,8 @@
                     <dl class="grid max-w-xl mt-4 grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-7">
                         <div class="relative">
                             <dt class="text-base/7 flex items-center gap-3 font-semibold text-gray-900">
-                                <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
+                                <div
+                                    class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     X
                                 </div>
                                 → multiplataforma (funciona no Windows, Linux e macOS)
@@ -192,19 +174,21 @@
                         </div>
                         <div class="relative">
                             <dt class="text-base/7 flex items-center gap-3 font-semibold text-gray-900">
-                                <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
+                                <div
+                                    class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     A
                                 </div>
                                 → Apache (servidor web)
                             </dt>
                             <dd class="mt-2 text-base/7 text-gray-600">
-                                Servidor web responsável por processar e exibir 
+                                Servidor web responsável por processar e exibir
                                 páginas.
                             </dd>
                         </div>
                         <div class="relative">
                             <dt class="text-base/7 flex items-center gap-3 font-semibold text-gray-900">
-                                <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
+                                <div
+                                    class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     M
                                 </div>
                                 → MySQL/MariaDB (banco de dados)
@@ -213,10 +197,11 @@
                         </div>
                         <div class="relative">
                             <dt class="text-base/7 flex items-center gap-3 font-semibold text-gray-900">
-                                <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
+                                <div
+                                    class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     P
                                 </div>
-                                    → PHP (Linguagem de Programação)
+                                → PHP (Linguagem de Programação)
                             </dt>
                             <dd class="mt-2 text-base/7 text-gray-600">O PHP (Hypertext Preprocessor) linguagem de
                                 programação voltada para o desenvolvimento de aplicações web dinâmicas.
@@ -224,11 +209,12 @@
                         </div>
                         <div class="relative">
                             <dt class="text-base/7 flex items-center gap-3 font-semibold text-gray-900">
-                                <div class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
+                                <div
+                                    class="left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-yellow-100">
                                     P
                                 </div>
                                 <p>
-                                → Perl (Linguagem de Programação)
+                                    → Perl (Linguagem de Programação)
                                 </p>
                             </dt>
                             <dd class="mt-2 text-base/7 text-gray-600">
@@ -239,7 +225,8 @@
                     </dl>
                 </div>
             </section>
-            <section id="s2" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <section id="s2"
+                class="bg-white scroll-mt-24 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
                     <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                         Instalação
@@ -249,10 +236,12 @@
                         Windows. Siga os passos abaixo para garantir uma instalação bem-sucedida:
                         <br><br>
                         O primeiro passo que faremos será baixar o instalador do XAMPP acessando a pagina oficial do
-                        Apache: 
-                        <a href="https://www.apachefriends.org/pt_br/download.html" target="_blank" class="text-blue-400">apachefriends.org</a>
+                        Apache:
+                        <a href="https://www.apachefriends.org/pt_br/download.html" target="_blank"
+                            class="text-blue-400">apachefriends.org</a>
                         <br><br>
-                        <img src="../public/images/print-s1-1.png" alt="print-s1-1" class="aspect-square rounded-md shadow-md w-96">
+                        <img src="../public/images/print-s1-1.png" alt="print-s1-1"
+                            class="aspect-square rounded-md shadow-md w-96">
                         Escolha a versão e faça o download do instalador.
                         <br><br>
                         Após o download, localize o arquivo do instalador para
@@ -260,22 +249,25 @@
                         <img src="../public/images/print-s1-2.png" alt="print-s1-2" class="rounded-md shadow-md w-96">
                         Execute o instalador baixado e siga as instruções abaixo.
                         <br><br>
-                        Confirmamos esse alerta e continuamos. 
+                        Confirmamos esse alerta e continuamos.
                         <img src="../public/images/print-s1-3.png" alt="print-s1-2" class="rounded-md shadow-md w-96">
                         <br><br>
-                        Aqui selecionamos os componentes que queremos adicionar durante 
-                        a instalação e avançamos. 
+                        Aqui selecionamos os componentes que queremos adicionar durante
+                        a instalação e avançamos.
                         <img src="../public/images/print-s1-4.png" alt="print-s1-2" class="rounded-md shadow-md w-96">
                         Você pode instalar tudo ou apenas os que precisa.
                         <br><br>
-                        Em seguida, clicamos em Avançar, Avançar e selecionamos o idioma. Colocamos Inglês e clicamos em Avançar novamente, Avançar, e a instalação começará.
+                        Em seguida, clicamos em Avançar, Avançar e selecionamos o idioma. Colocamos Inglês e clicamos em
+                        Avançar novamente, Avançar, e a instalação começará.
                         <br><br>
-                        Após a conclusão da instalação, clique em "finish" e o <a href="#s3" class="text-blue-400">painel de controle</a> do XAMPP será aberto.
+                        Após a conclusão da instalação, clique em "finish" e o <a href="#s3"
+                            class="text-blue-400">painel de controle</a> do XAMPP será aberto.
                         <img src="../public/images/print-s1-5.png" alt="print-s1-2" class="rounded-md shadow-md w-96">
                     </p>
                 </div>
             </section>
-            <section id="s3" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <section id="s3"
+                class="bg-white scroll-mt-24 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
                     <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                         Painel de controle do XAMPP
@@ -299,13 +291,15 @@
                     </p>
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         No painel de controle, você verá botões para iniciar e parar cada componente. Por exemplo, para
-                        iniciar o servidor Apache, basta clicar no botão "Start" ao lado de "Apache". 
+                        iniciar o servidor Apache, basta clicar no botão "Start" ao lado de "Apache".
                     </p>
-                    <img src="../public/images/print-s3-2.png" alt="print-s1-1" class="aspect-square mt-4 rounded-md shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-2.png" alt="print-s1-1"
+                        class="aspect-square mt-4 rounded-md shadow-md w-lg h-84">
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Da mesma forma, você pode parar o serviço clicando no botão "Stop".
                     </p>
-                    <img src="../public/images/print-s3-3.png" alt="print-s1-1" class="aspect-square rounded-md mt-4 shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-3.png" alt="print-s1-1"
+                        class="aspect-square rounded-md mt-4 shadow-md w-lg h-84">
                     <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
                         Acessando interfaces administrativas:
                     </p>
@@ -313,25 +307,30 @@
                         Muitos componentes do XAMPP possuem interfaces web para administração. Por exemplo, para acessar
                         o phpMyAdmin (ferramenta de gerenciamento de banco de dados), clique no botão "Admin".
                     </p>
-                    <img src="../public/images/print-s3-4.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-4.png" alt="print-s1-1"
+                        class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Isso abrirá o phpMyAdmin em seu navegador padrão, onde você pode gerenciar seus bancos de dados
                         MySQL.
                     </p>
-                    <img src="../public/images/print-s3-5.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-5.png" alt="print-s1-1"
+                        class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
                     <p class="text-2xl mt-4 font-bold tracking-tight text-gray-900">
                         Acessando configurações:
                     </p>
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        Existe também a possibildade de ajustar as configurações de um componente. Por exemplo, para acessar as configurações do php clique no botão "Config" ao lado do serviço
+                        Existe também a possibildade de ajustar as configurações de um componente. Por exemplo, para
+                        acessar as configurações do php clique no botão "Config" ao lado do serviço
                         apache.
                     </p>
-                    <img src="../public/images/print-s3-6.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-6.png" alt="print-s1-1"
+                        class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Isso abrirá o arquivo de configuração correspondente em um editor de texto, onde você
                         pode fazer as alterações necessárias.
                     </p>
-                    <img src="../public/images/print-s3-7.png" alt="print-s1-1" class="aspect-square mt-4 rounded-md shadow-md w-96">
+                    <img src="../public/images/print-s3-7.png" alt="print-s1-1"
+                        class="aspect-square mt-4 rounded-md shadow-md w-96">
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Lembre-se de salvar as alterações e reiniciar o serviço para que as novas configurações
                         entrem em vigor.
@@ -342,15 +341,18 @@
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Para diagnosticar problemas, você pode acessar os logs de cada componente clicando no botão
                         "Logs". Isso abrirá uma janela exibindo os logs de erro e acesso, o que pode ser útil para
-                        solucionar problemas. Por exemplo, para acessar os logs de acesso do apache clique no botão "Logs" ao lado do serviço
+                        solucionar problemas. Por exemplo, para acessar os logs de acesso do apache clique no botão
+                        "Logs" ao lado do serviço
                         apache.
                     </p>
-                    <img src="../public/images/print-s3-8.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
+                    <img src="../public/images/print-s3-8.png" alt="print-s1-1"
+                        class="aspect-square mt-2 rounded-md shadow-md w-lg h-84">
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
                         Isso abrirá o arquivo de log correspondente em um editor de texto, onde você
                         pode revisar as entradas de log.
                     </p>
-                    <img src="../public/images/print-s3-9.png" alt="print-s1-1" class="aspect-square mt-2 rounded-md shadow-md w-96">
+                    <img src="../public/images/print-s3-9.png" alt="print-s1-1"
+                        class="aspect-square mt-2 rounded-md shadow-md w-96">
                     <p class=" text-gray-700 dark:text-gray-800 mt-6 text-xl">
                         O painel de controle do XAMPP permite ajustar várias
                         configurações, como portas de serviço, diretórios raiz, e outras opções avançadas.
@@ -366,99 +368,53 @@
                     </ul>
                 </div>
             </section>
-            <section id="s4" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <section id="s4"
+                class="bg-white scroll-mt-24 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
                     <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
                         Estrutura de Diretórios
                     </h3>
                     <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP organiza seus arquivos em uma estrutura de diretórios específica. Aqui estão os principais
+                        O XAMPP organiza seus arquivos em uma estrutura de diretórios específica. Aqui estão os
+                        principais
                         diretórios que você deve conhecer:
                         <br><br>
-                        <strong>htdocs:</strong> Este é o diretório raiz onde você deve colocar seus projetos e arquivos PHP e HTML.
-                        Qualquer arquivo colocado aqui pode ser acessado via navegador, caso o servidor Apache esteja em execução.
+                        <strong>htdocs:</strong> Este é o diretório raiz onde você deve colocar seus projetos e arquivos
+                        PHP e HTML.
+                        Qualquer arquivo colocado aqui pode ser acessado via navegador, caso o servidor Apache esteja em
+                        execução.
                         <br><br>
-                        <img src="../public/images/print-s4-1.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md ">
+                        <img src="../public/images/print-s4-1.png" alt="print-s4-1"
+                            class="aspect-square mt-4 rounded-md shadow-md ">
                         <br><br>
-                        As pastas e arquivos dentro do diretório htdocs podem ser acessados através do navegador web usando o endereço
-                        <code>http://localhost/</code> seguido pelo nome da pasta ou arquivo. 
+                        As pastas e arquivos dentro do diretório htdocs podem ser acessados através do navegador web
+                        usando o endereço
+                        <code>http://localhost/</code> seguido pelo nome da pasta ou arquivo.
                         <br><br>
-                        Por exemplo, se você criar uma pasta chamada "meuProjeto" dentro de "htdocs", você pode acessá-la via
+                        Por exemplo, se você criar uma pasta chamada "meuProjeto" dentro de "htdocs", você pode
+                        acessá-la via
                         <code>http://localhost/meuProjeto/</code>.
                         <br><br>
-                        <img src="../public/images/print-s4-2.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
+                        <img src="../public/images/print-s4-2.png" alt="print-s4-1"
+                            class="aspect-square mt-4 rounded-md shadow-md">
                         <br><br>
                         <strong>mysql/data:</strong> Este diretório contém os arquivos de dados do banco de dados MySQL.
                         Evite modificar esses arquivos diretamente.
-                        <img src="../public/images/print-s4-3.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
-                        <br><br>
-                        <strong>logs:</strong> Contém os arquivos de log para os diferentes serviços, como Apache e MySQL.
-                        Útil para diagnóstico de problemas.
-                        <img src="../public/images/print-s4-4.png" alt="print-s4-1" class="aspect-square mt-4 rounded-md shadow-md">
-                        <br><br>
+                        <img src="../public/images/print-s4-3.png" alt="print-s4-1"
+                            class="aspect-square mt-4 rounded-md shadow-md">
                     </p>
                 </div>
             </section>
-            <section id="s5" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
+            <section id="s5"
+                class="bg-white scroll-mt-24 rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
                 <div class="mt-6">
-                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
-                    </h3>
-                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
-                    </p>
-                </div>
-            </section>
-            <section id="s6" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
-                <div class="mt-6">
-                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
-                    </h3>
-                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
-                    </p>
-                </div>
-            </section>
-            <section id="s7" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
-                <div class="mt-6">
-                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
-                    </h3>
-                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
-                    </p>
-                </div>
-            </section>
-            <section id="s8" class="bg-white rounded-lg mt-10 px-6 pl-16 pr-16 py-8 shadow-xl ring ring-yellow-100">
-                <div class="mt-6">
-                    <h3 class="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
-                        Instalação e Configuração
-                    </h3>
-                    <p class=" text-gray-700 dark:text-gray-800 mt-2 text-xl">
-                        O XAMPP é um ambiente de desenvolvimento
-                        gratuito e de código aberto que facilita a criação e o teste de aplicações web localmente, sem a
-                        necessidade de um servidor real na internet. Ele reúne em um só instalador todos os componentes
-                        necessários para executar um servidor web completo em seu computador, sem precisar de
-                        configuração complexa.
+                    <p class=" text-gray-400 mt-2 text-xl">
+                        coming soon...
                     </p>
                 </div>
             </section>
         </div>
     </main>
-
-
     <footer class="h-72 bg-gray-100 px-5 py-5 mt-auto">
         <div class="max-w-7xl mx-auto flex justify-between p-4">
             <div>
@@ -475,10 +431,6 @@
                     <li>Arley Nunes</li>
                 </ul>
             </div>
-
-
-
-
             <div class="flex-col">
                 <p class="text-lg font-medium text-gre-900">Compartilhe os seus desafios na sua jornada de
                     aprendizado!</p>
